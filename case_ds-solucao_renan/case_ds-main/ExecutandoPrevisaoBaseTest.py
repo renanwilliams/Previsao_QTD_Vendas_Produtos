@@ -5,7 +5,7 @@ import pandas as pd
 
 if __name__ == "__main__":
     
-    con = sqlite3.connect("case_ds_gdem.sqlite3")
+    con = sqlite3.connect("database.sqlite3")
     df = pd.read_sql_query("SELECT * from vendas", con)
 
     con.close()

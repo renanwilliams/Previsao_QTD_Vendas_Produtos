@@ -1,4 +1,4 @@
-# Solução do Case de DS - Grupo Boticário
+# Solução de Case
 
 
 De acordo com o objetivo dado (realizar previsão de vendas de cada produto na base de dados), duas soluções foram propostas: Solução Principal foi construída com base nos produtos que possuem ciclos completos (329produtos), porém foi aplicado algoritmo de KMeans para representação desses produtos em 3 grupos distintos com o objetivo de conseguir detalhar mais o processo de criação dos modelos. Solução Alternativa, também utilizando os 329 produtos, porém com o objetivo de desenvolver uma solução mais simples e com a previsão individual de cada produto.
